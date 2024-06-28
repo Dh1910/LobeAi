@@ -1,39 +1,66 @@
 body{
     height: 100vh;
+    font-family: Arial;
 }
-nav{
+.navdiv {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+.navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    font-size: 25px;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
 }
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    margin-left: 40px;
-    text-align: center;
-    color: grey;   
-}
-.header a:hover{
-    font-size: 21px;
+.navbar ul :hover{
+    transform: scale(1.05);
     color: black;
 }
-li{
+.navbar h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+} 
+ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
+    gap: 3rem;
+    margin: 0;
 }
-.header button {
-    height:50px;
-    width: 150px;
-    background-color: aqua;
-    border-radius: 30px;
-    margin-left: 200px;
-    font-size: 20px;
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+button {
+    background-color: #04DDB2;
+    border-radius: 90px;
+    width: 148px;
+    height: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+} 
+button a {
     color: white;
-    font-size: 20px;
-    border-width: 0px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
 }
-button:hover{
-    font-size: 22px;
+button:hover {
+    transform: scale(1.05);
+}
+.navbar li a {
+    color: gray;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 .lobe{
     font-size: 70px;
@@ -46,6 +73,7 @@ button:hover{
 }
 .lobetour{
     display: flex;
+    margin-top: 200px;
 }
 pre{
     font-size: 25px;
@@ -65,6 +93,7 @@ pre{
     border-width: 0px;
     display: block;
     margin: auto;
+    margin-bottom:200px;
 }
 h1{
     font-weight: 9000;
@@ -74,6 +103,7 @@ p{
     margin-left:100px;
     font-size: 18px;
 }
+
 footer{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
@@ -81,54 +111,7 @@ footer{
     margin-top: 40px;
     margin-left: 20px;
     margin-bottom:200px ;
-    /* display: flex; */
     padding-left: 150px;
-}
-.first h3{
-    font-size: 25px;
-    color: black;
-}
-.first{
-    font-size: 18px;
-    color: grey;
-    
-}
-.second h3{
-    font-size: 18px;
-    color: black;
-    padding-left: 40px;
-}
-.second{
-    font-size: 18px;
-    color: grey;
-    
-}
-.second a:hover{
-    font-size: 21px;
-}
-.third h3{
-    font-size: 18px;
-    color: black;
-    padding-left: 40px;
-}
-.third{
-    font-size: 18px;
-    color: grey;
-}
-.third a:hover{
-    font-size: 21px;
-}
-.fourth h3{
-    font-size: 18px;
-    color: black;
-    padding-left: 40px;
-}
-.fourth{
-    font-size: 18px;
-    color: grey;
-}
-.fourth a:hover{
-    font-size: 21px;
 }
 .fifth i{
     font-size: 30px;
@@ -138,19 +121,62 @@ footer{
     height: 50px;
     width:50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;    
-    
+    align-items: center;   
+    margin-bottom: 10px; 
 }
-.fifth a:hover{
-    font-size:32px ;
+.fifth i:hover{
+    font-size: 31px;
 }
-.main img{
-    height: 23px;
-    width: 23px;
-    margin-right: 500px;
-    padding-top:35px;
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+li a {
+    color: grey;
+    font-size: 20px;
+    text-decoration:none ;
+}
+li a:hover{
+    font-size: 22px;
+}
+.footer li {
+    padding-top: 20px;
+}
+.image img{
+    height: 500px;
+    width: 800px;
+    margin-left: 380px;
+    border-radius: 40px;
+}
+.image img:hover{
+    height: 510px;
+    width: 810px;
+    box-shadow:10px 50px 50px #888888;
+    transition-duration: 0.5s;
 }
 .main h3{
     padding-left: 35px;
 }
+image{
+    height: 334px;
+    width: 700px;
+}
+.first li {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #555050;
+}
+
