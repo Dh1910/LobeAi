@@ -1,0 +1,156 @@
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+    text-align: center;
+    color: grey;   
+}
+.header a:hover{
+    font-size: 21px;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.header button {
+    height:50px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+    font-size: 20px;
+    border-width: 0px;
+}
+button:hover{
+    font-size: 22px;
+}
+.lobe{
+    font-size: 70px;
+    padding-right:20px;
+    padding-left: 600px;
+}
+.tour{
+    color: aqua;
+    font-size:70px ;
+}
+.lobetour{
+    display: flex;
+}
+pre{
+    font-size: 25px;
+    text-align: center;
+}
+.train{
+    font-size: 60px;
+    font-weight: 900;
+}
+#main button {
+    height: 55px;
+    width: 180px;
+    background-color: aqua;
+    font-size:25px ;
+    color: white;
+    border-radius: 30px;
+    border-width: 0px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-weight: 9000;
+    margin-left: 100px;
+}
+p{
+    margin-left:100px;
+    font-size: 18px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom:200px ;
+    /* display: flex; */
+    padding-left: 150px;
+}
+.first h3{
+    font-size: 25px;
+    color: black;
+}
+.first{
+    font-size: 18px;
+    color: grey;
+    
+}
+.second h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+}
+.second{
+    font-size: 18px;
+    color: grey;
+    
+}
+.second a:hover{
+    font-size: 21px;
+}
+.third h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+}
+.third{
+    font-size: 18px;
+    color: grey;
+}
+.third a:hover{
+    font-size: 21px;
+}
+.fourth h3{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+}
+.fourth{
+    font-size: 18px;
+    color: grey;
+}
+.fourth a:hover{
+    font-size: 21px;
+}
+.fifth i{
+    font-size: 30px;
+    color: white;
+    background-color:aqua;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.fifth a:hover{
+    font-size:32px ;
+}
+.main img{
+    height: 23px;
+    width: 23px;
+    margin-right: 500px;
+    padding-top:35px;
+}
+.main h3{
+    padding-left: 35px;
+}
