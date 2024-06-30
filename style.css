@@ -75,17 +75,17 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    padding-left: -45%;
+    margin-left: -45%;
 }
 pre{
     font-size: 25px;
     text-align: center;
-    padding-left: 150px;
+    margin-left: 150px;
 }
 .train{
     font-size: 60px;
     font-weight: 900;
-    padding-left: 150px;
+    margin-left: 150px;
 }
 #main button {
     height: 55px;
