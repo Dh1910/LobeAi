@@ -1,0 +1,421 @@
+body{
+    height: 100vh;
+    font-family: arial;
+}
+.navdiv {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    width: 100%;
+}
+.navbar ul :hover{
+    transform: scale(1.05);
+    color: black;
+}
+.navbar h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+} 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 3rem;
+    margin: 0;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+button {
+    background-color: #04DDB2;
+    border-radius: 90px;
+    width: 148px;
+    height: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+} 
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.navbar li a {
+    color: gray;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom:200px ;
+    padding-left: 150px;
+}
+.fifth i{
+    font-size: 30px;
+    color: white;
+    background-color:aqua;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 10px; 
+}
+.fifth i:hover{
+    font-size: 31px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+li a {
+    color: grey;
+    font-size: 18px;
+    text-decoration:none ;
+}
+li a:hover{
+    font-size: 25px;
+}
+.footer li {
+    padding-top: 20px;
+}
+.train{
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 33%;
+}
+#main button {
+    height: 55px;
+    width: 180px;
+    background-color: aqua;
+    font-size:25px ;
+    color: white;
+    border-radius: 30px;
+    border-width: 0px;
+    display: block;
+    margin: auto;
+    margin-bottom:200px;
+}
+.main h1{
+    margin-top: 200px;
+    font-size: 4rem;
+    padding-left: 16%;
+}
+.main pre{
+    font-size:1.7rem;
+    padding-left: 16%;
+}
+.main button{
+    margin-left: 16%;
+    display: inline;   
+}
+ .main button2{
+    color: aqua;
+    background-color: white;
+ }
+.machine{
+    width: 100%;
+    height: auto;
+    background-color: #f6f1f1;
+}
+.easy{
+    color: aqua;
+    display: inline;
+}
+.machine pre{
+    font-size: 70px;
+    font-family: arial;
+    font-weight: bolder;
+    margin-left: 16%;
+    padding-top: 7%;
+    height: 100px;
+}
+.para pre{
+    font-size: 25px;
+    padding: 0px;
+    line-height: 1.5;
+}
+.machine img{
+    height: 100%;
+    width: 90%;
+    padding-top: 60px;
+    padding-left: 70px;
+}   
+.column img{
+    height: 50px;
+    width: 50px;
+    padding-left: 85px;
+    border-radius:10px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.column{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.3fr));
+    gap: 0px;
+    padding-left:10% ;
+    font-size: 1.5rem;
+    margin-top: -100px;
+}
+.column p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 80px; 
+    margin-top: 5% ;
+    line-height: 1.5;
+}
+.column h4{
+    padding-left: 20%;
+    margin-top:10px;
+}
+.tem{
+    font-size: 3.5rem;
+    padding-top: 5%;
+    padding-left: 16%;
+    font-weight: bolder;
+
+}
+.project{
+    color: aqua;
+    display: inline;
+}
+.para2 p{
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-top: -50%;
+    padding-left: 16%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 3rem;
+    padding-bottom: 5%;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+    height: 400px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card img{
+    height:30%;
+    width:60%;
+    margin: -50px 0px 0px -60px;
+}
+.card p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.available{
+    color: white;
+    font-size: 15px;
+}
+.avail{
+    height: 25px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.object{
+    height: 25px;
+    width: 150px;
+    background-color: #f6f1f1;
+    border-radius: 20px;
+    margin: 60px 70px;
+}
+.coming{
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+}
+.label pre{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 10% 16%;
+}
+.label h3{
+    color: aqua;
+    font-size: 3.5rem;
+    display: inline;
+}
+.para3 p{
+    margin-top: -120px;
+    font-size: 1.5rem;
+    margin-left: 16%;
+    line-height: 1.5;
+}
+.label2 h3{
+    color: aqua;
+    font-size: 3.5rem;
+    display: inline;
+}
+.label2 pre{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: arial;
+    margin-left: 45%;
+}
+.para4 p{
+    margin-top: -30px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-left: 45%;
+}
+.export{
+    width: 100%;
+    height: auto;
+    background-color: #f6f1f1;
+}
+.last h3{
+    color: aqua;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: arial;
+    display: inline;
+}
+.last pre{
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: arial;
+    margin-left: 16%;
+}  
+.export p{
+    font-size: 1.5rem;
+    margin-left: 16%;
+    margin-top: -3%;
+    line-height: 1.5;
+}
+.export a{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 16%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 40px;
+}
+.export a:hover{
+    font-size:1.6rem;
+}
+.icons-container img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.aws{
+    margin-top: -10%;
+    margin-left: 5%;
+}
+.Tensorflow{
+   padding-top: 20%;
+}
+.azure{
+    top: 930%;
+    left: 25%;
+}
+.apple{
+    top: 880%;
+    left: 80%;
+}
+.google{
+    top: 940%;
+    left: 45%;
+}
+.arduino{
+    top: 915%;
+    left: 55%;
+}
+.unity{
+    top: 930%;
+    left: 70%;
+}
+.ml{
+    top: 905%;
+    left: 80%;
+}
+.cardi a{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    border-radius: 30px;
+}
+.cardi a:hover{
+    height:510px ;
+    width: 410px;
+}
+.cardi p{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top: 40%;
+}
+.card2{
+    margin-left: 25%;
+    margin-top: -33%;
+}
+.card3{
+    margin-left: 60%;
+    margin-top: -33%;
+}
+.card1{
+    margin-left: -10%;
+}
+.para5{
+    margin-top: -8%;
+}
+
+
+
+
+
+
+
+
+
