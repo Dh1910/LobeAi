@@ -139,7 +139,7 @@ li a:hover{
     font-weight: bolder;
     font-family: arial;
     display: flex;
-    margin-left: 32%;
+    margin-left: 37%;
 }
 .ex p{
     color: aqua;
@@ -177,4 +177,7 @@ li a:hover{
     margin-left:25px ;
     margin-top: -10px;
     line-height: 1.5;
+}
+.container{
+    margin-left: 100px;
 }

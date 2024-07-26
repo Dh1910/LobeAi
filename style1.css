@@ -116,7 +116,7 @@ li a:hover{
 .train{
     font-size: 60px;
     font-weight: 900;
-    margin-left: 33%;
+    margin-left: 37%;
 }
 #main button {
     height: 55px;
@@ -130,23 +130,31 @@ li a:hover{
     margin: auto;
     margin-bottom:200px;
 }
-.main h1{
+.down{
+    margin-left: 16%;
+}
+.watch a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 450px;
+}
+.watch{
+    margin-top:-1.9%;
+}
+.watch a:hover{
+    font-size: 26px;
+}
+.text h1{
     margin-top: 200px;
     font-size: 4rem;
     padding-left: 16%;
 }
-.main pre{
+.text pre{
     font-size:1.7rem;
     padding-left: 16%;
 }
-.main button{
-    margin-left: 16%;
-    display: inline;   
-}
- .main button2{
-    color: aqua;
-    background-color: white;
- }
 .machine{
     width: 100%;
     height: auto;
@@ -310,6 +318,7 @@ li a:hover{
     width: 100%;
     height: auto;
     background-color: #f6f1f1;
+    margin-top: 5%;
 }
 .last h3{
     color: aqua;
@@ -407,11 +416,45 @@ li a:hover{
 .card1{
     margin-left: -10%;
 }
+.card1 img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.card2 img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.card3 img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.card1 p{
+    margin-left: -170px;
+
+}
+.card2 p{
+    margin-left: -170px;
+
+}
+.card3 p{
+    margin-left: -170px;
+
+}
 .para5{
     margin-top: -8%;
 }
-
-
+.plant img{
+    margin-left: -8%;
+}
+/* .cardi img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+} */
 
 
 

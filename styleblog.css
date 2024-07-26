@@ -154,18 +154,18 @@ li a:hover{
 .card{
     background-color:rgb(239, 237, 237);
     height: 700px;
-    width: 600px;
+    width: 550px;
     box-shadow:10px 40px 50px #888888;
     border-radius: 30px;
     display: inline-block;
-    margin-left: 110px;
+    margin-left: 200px;
     gap: 10px;
     margin-bottom: 50px; 
     margin-top: 50px;
 }
 .card img{
     height: 350px;
-    width:600px;
+    width:550px;
     border-radius: 30px;
 }
 .card h3{
@@ -192,4 +192,7 @@ li a:hover{
 }
 .container{
     margin-top: 50px;
+}
+.ml{
+    margin-left: 30%;
 }
